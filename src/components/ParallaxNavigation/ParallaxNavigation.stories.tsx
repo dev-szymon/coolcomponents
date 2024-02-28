@@ -20,5 +20,6 @@ export const Default: Story = {
             {label: "Blog", to: "#"},
             {label: "Contact", to: "#"}
         ]
-    }
+    },
+    render: (args) => <ParallaxNavigation className="min-h-[500px]" {...args} />
 };
