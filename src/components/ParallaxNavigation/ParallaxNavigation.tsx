@@ -22,7 +22,7 @@ const ParallaxNavigation: React.FC<ParallaxNavigationProps> = ({items, className
                     alt=""
                     className="absolute inset-0 scale-110 pointer-events-none"
                     style={{
-                        transform: `scale(${hoverIndex > 0 ? "1.2" : "1.3"}) translateY(${hoverIndex * 2}%)`,
+                        transform: `scale(${hoverIndex > 0 ? "1.2" : `1.25`}) translateY(${hoverIndex * 1.25}%)`,
                         transition: "all 0.5s cubic-bezier(0.4, 0, 0.2, 1)"
                     }}
                 />
